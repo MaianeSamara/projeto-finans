@@ -12,7 +12,7 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvR0S7bZs3I02EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!-- Estilo Customizado -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -57,18 +57,46 @@
     </header>
     <!--/fim Cabecalho-->
 
-    <section id="home"><!--inicio seção home-->
+    <section id="home">
+        <!--inicio seção home-->
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    texto
+                <div class="col-md-6 d-flex">
+                    <!--Textos da seção-->
+                    <div class="align-self-center">
+                        <h1>Suas contas, descomplicadas</h1>
+                        <p>
+                            Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar
+                            sua vida financeira.
+                        </p>
+
+                        <form class="mt-4 mb-4">
+                            <div class="input-group input-group-lg">
+                                <input type="text" placeholder="seu e-mail" class="form-control">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-primary">Cadastre-se</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <p>Disponível para
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fab fa-android fa-lg"></i>
+                            </a>
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    imagem
+                <!--/fim textos da seção-->
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="img/capa-mulher.png" alt="Capa Mulher">
                 </div>
             </div>
         </div>
-    </section> <!--/fim seção home-->
+    </section>
+    <!--/fim seção home-->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
